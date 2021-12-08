@@ -19,7 +19,8 @@
   align-items: center;
 }
 
-.user-item img {
+.user-item img,
+#image-preview {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
@@ -41,3 +42,6 @@
   margin: 0.5rem 0;
 }
 
+#image-preview {
+  display: none;
+}
